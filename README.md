@@ -1,2 +1,0 @@
-# rmckinle.github.io
-Playground
