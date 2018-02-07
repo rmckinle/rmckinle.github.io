@@ -1,289 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
 
-    <title>Rory McKinley</title>
+	<head>
+		
+		<!-- required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Heebo:100|Montserrat" rel="stylesheet">
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Optional Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <style>
-
-    body {
-      background-color: rgb(232,232,232);
-      color: rgb(90,90,90);
-      font-weight: lighter;
-    }
-
-    a {
-      color: rgb(90,90,90);
-    }
-
-    p {
-      font-size: 18px;
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    h3 {
-      font-family: Heebo, sans-serif;
-      color: white;
-      font-size: 40px;
-    }
-
-    h4 {
-      font-family: Heebo, sans-serif;
-      font-size: 40px;
-    }
-
-    h5 {
-      font-family: Heebo, sans-serif;
-      font-size: 40px;
-    }
-
-    form {
-      padding: 30px 0px 30px 0px;
-      width: 80vw;
-    }
-
-    .bg1 {
-      background-color: rgb(220,220,220);
-      margin-top: -5px;
-    }
-
-    .bg2 {
-      background-color: rgb(240,240,240);
-    }
-
-    .bg3 {
-      background-color: white;
-    }
-
-    .bg4 {
-      background-color: rgb(90,90,90);
-      color: white;
-    }
-
-    .bgFooter {
-      background-color: rgb(40,40,40);
-      color: white;
-      font-family: "Montserrat";
-      font-size: 20px;
-      padding-top: 15px;
-      padding-bottom: 5px;
-    }
-
-    .bgPic {
-      background-image: url("https://i.imgur.com/sDloVeH.jpg");
-      opacity: 0.6;
-      margin-top: 65px;
-
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .navbar {
-      background-color: rgb(255,255,255);
-      padding-top: 0px;
-      padding-bottom: 0px;
-      font-size: 30px;
-      font-family: 'Heebo', sans-serif;
-      padding:5px 10px 5px 10px;
-    }
-
-    .navbar a:hover {
-      color: rgb(240,240,240);
-      text-decoration: none;
-    }
-
-    .navbar-nav a:hover {
-      color:rgb(240,240,240) !important;
-    }
-
-    .fa {
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-
-    .fa:hover {
-      color:rgb(100,100,100);
-      text-decoration: none;
-    }
-
-    .carousel-inner,.carousel,.carousel-item,.container,.fill {
-      height:100%;
-      width:100%;
-      background-position:center center;
-      padding:0;
-    } 
-
-    #myNavbar {
-      font-size: 20px;
-    }
-
-    #contact {
-      padding:30px 0px 10px 0px;
-    }
-
-    #captionText {
-      font-size: 18px;
-    }
-
-    .form-group {
-        font-family: Heebo, sans-serif;
-        width: 50vw;
-        margin-left: 25vw;
-      }
-
-    #formBtn {
-        margin-left: 25vw;
-      }
-
-    @media(max-width: 576px) {
-
-      .form-group {
-        font-family: Heebo, sans-serif;
-        width: 85vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
-      }
-
-      #formBtn {
-        margin-left: 5vw;
-      }
-    }
-
-    </style>
-
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-
-      <a class="navbar" href="#">McKINLEY Co.</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="#aboutme">ABOUT</a>
-          <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
-          <a class="nav-item nav-link" href="#contact">CONTACT</a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Container 1 -->
-    <div class="container-fluid bgPic">
-        <div class="text-center" style="color: white;font-size: 40px; padding-top: 200px; padding-bottom: 200px;">Finance /<br>Web Development /<br>Music</div>
-      </div>
-    </div>
+		<!-- import local style sheet -->
+		<link rel="stylesheet" type="text/css" href="quoteCSS.css">
 
 
-    <section id="aboutme">
-      <!-- Container 2 -->
-      <div class="container-fluid bg2 text-center" style="padding-top: 10vh; padding-bottom: 10vh;">
-        <h4>Hi There</h4>
-        <p style="padding-top: 2%; line-height: 35px;">Recent finance graduate with experience in Investment Banking and Portfolio Management. Proficient in the use of Microsoft suite, FactSet, CapIQ, and Bloomberg terminal. Hobbyist developer with knowledge of Python, Java, SQL and basic front end development. Guitar and digital music production in my downtime.</p>
-      </div>
-    </section>
+		<!-- import jQuery stuff -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Container 3 -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-    <section id="portfolio">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 
-        <div class="carousel-inner  container-fluid" style="height:70vh;">
-
-          <div class="carousel-item active" style="height:70vh; background-image: url(https://i.pinimg.com/originals/aa/cd/a5/aacda527d560d85fddccedd4753f67cf.jpg); background-size: cover;">
-            <div class="carousel-caption d-none d-sm-block">
-              <h5>Project 1</h5>
-              <p id="captionText">I haven't completed any web development projects yet, so here's some placeholder text</p>
-            </div> 
-          </div>
-
-          <div class="carousel-item" style="height: 70vh; background-image: url(https://wallpaperscraft.com/image/forest_trees_dark_top_view_116007_1920x1080.jpg); background-size: cover;">
-            <div class="carousel-caption d-none d-sm-block">
-              <h5>Project 2</h5>
-              <p id="captionText">I haven't completed any web development projects yet, so here's some placeholder text</p>
-            </div> 
-          </div>
-
-          <div class="carousel-item" style="height: 70vh; background-image: url(http://papers.co/wallpaper/papers.co-vi03-stone-sea-nature-dark-pattern-25-wallpaper.jpg); background-size: cover;">
-            <div class="carousel-caption d-none d-sm-block">
-              <h5>Project 3</h5>
-              <p id="captionText">I haven't completed any web development projects yet, so here's some placeholder text</p>
-            </div> 
-          </div>
-
-        </div>
-
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
+	</head>
 
 
-    <!-- Container 2 -->
-    <section id="contact" class="bg4">
-      <h4 style="text-align: center;">Get In Touch</h4>
-        <div>
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="name" placeholder="NAME">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" id="email" placeholder="EMAIL">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="subject" placeholder="SUBJECT">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="message" placeholder="MESSAGE" style="height:20vh;">
-            </div>
-            <button type="submit" class="btn btn-light justify-content-center" style="font-family: Heebo, sans-serif;" id="formBtn">Submit</button>
-          </form>
-        </div>
-    </section>
+	<body>
 
-    <!-- Container 2 -->
-    <footer class="container-fluid bgFooter text-center">
-      <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-linkedin"></a>
-      <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-twitter"></a>
-      <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-facebook"></a>
-      <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-codepen"></a>
-      <p style="margin-top:15px; font-family: Heebo; font-size: 14px;">RORY McKINLEY © 2018</p>
-    </footer>
+		<div class = "bgPic"></div>
 
-  </body>
+		<div class="container-fluid quoteBox">
+					
+		  <div class = "container-fluid">
+		    <p class="quoteText">Press "Get Quote"</p>
+		    <p class = "quoteAuthor"</p>
+		  </div>
+		  
+		  <button type="button" class="btn btn-outline-primary" id="quoteButton">
+		    Get Quote
+		  </button>
+		  
+		  <i class = "fab fa-twitter" id = "twitter"></i>
+
+		</div>
+		
+
+		<script src="quoteJS.js" ></script>
+		
+	</body>
 </html>
+
+
+
+
+
+
+
+
+
