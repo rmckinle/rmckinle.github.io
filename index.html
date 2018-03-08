@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Timber Masters</title>
+
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100|Montserrat" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Optional Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+
+    body {
+      height: 200vh;
+    }
+
+    p {
+      font-family: 'Montserrat';
+      font-weight:10;
+    }
+
+    h1 {
+      font-family: "Heebo";
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .navbar {
+      background-color: rgba(0,0,0,0.7);
+      padding-top: 0px;
+      padding-bottom: 0px;
+      font-size: 30px;
+      font-family: 'Heebo', sans-serif;
+      padding:5px 10px 5px 10px;
+    }
+
+    .navbar a:hover {
+      color: rgb(240,240,240);
+      text-decoration: none;
+    }
+
+    .navbar-nav a:hover {
+      color:rgb(240,240,240) !important;
+    }
+
+    .nav-item {
+      margin-left: 10px;
+      color:white !important;
+    }
+
+    #navItems {
+      color:white;
+    }
+
+    #myNavbar {
+      font-size: 20px;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+
+    .bgDiv {
+        position: relative;
+        z-index: 1;
+        height:80vh;
+    }
+
+    .bgDiv .bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url("bgpic.jpg") center center;
+        opacity: .6 ;
+        width: 100%;
+        height: 100%;
+
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bgText {
+      font-size: 5vmax;
+      color:rgb(255,255,255);
+      font-family: "Heebo";
+      margin-right: 20px;
+      margin-left: 20px;
+      font-weight: 800;
+    }
+
+    .navbar-toggler {
+      background-color: white;
+    }
+
+    .b1 {
+      padding: 5vh 10vw 5vh 10vw;
+    }
+
+    .card-deck {
+      padding-left: 50px;
+      padding-right:50px;
+      padding-bottom: 50px;
+    }
+
+    .card-title {
+      font-family: "Heebo";
+      font-size:26px;
+    }
+
+    .card-area {
+      padding-top: 50px;
+      background-color: rgb(230,230,230);
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+
+      <img class = "logo" src="TMlogo.jpg">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="navbar-nav ml-auto" id="navItems">
+          <a class="nav-item nav-link" href="#aboutme">HOME</a>
+          <a class="nav-item nav-link" href="#portfolio">DESIGN</a>
+          <a class="nav-item nav-link" href="#contact">CONSTRUCTION</a>
+          <a class="nav-item nav-link" href="#aboutme">INTEGRATION</a>
+          <a class="nav-item nav-link" href="#portfolio">LOG POST & BEAM</a>
+          <a class="nav-item nav-link" href="#contact">FOR SALE</a>
+          <a class="nav-item nav-link" href="#contact">GALLERY</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid navbarBg">
+    </div>
+
+    <div class="bgDiv d-flex align-items-center justify-content-center text-center">
+      <div class="bg"></div>
+      <div class="bgText">
+        We build everything log & timber. 
+      </div>
+    </div>
+
+    <div class="b1">
+
+      <h1>
+        Welcome to Timber Masters
+      </h1>
+
+
+      <p>
+        Timber Masters is a highly skilled Timber Construction, Designing & Integration company that can handle any home, commercial timber project, log post and beam and many other integration ideas.
+      </p>
+      <p>
+        Since 2007, we have grown our expertise in quality custom home builds, unique home integration, additions, timber construction, log post and beam, secondary suites, commercial spaces, outdoor furnishings and so much more.
+      </p>
+      <p>
+        Our goal is to work closely with you, as one of our project managers will consult with you or your representative throughout the entire process. With Timber Masters we use only the best selected timber and logs for your projects while giving you the best quality craftsmanship, that's traditionally done with superior service.
+      </p>
+      <p>
+        Selecting the best timber, custom handcrafting a better product, providing legendary service ... AND NOW LOG POST AND BEAM!
+      </p>
+    </div>
+
+
+    <div class = "card-area">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="timcons.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Timber Construction</h5>
+            <p class="card-text">No matter the project, if you can draw it we can build it for a life lasting one of kind timber structure. Send us your ideas or building plans today.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="logcons.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Log Construction</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="sale.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Sale Products</h5>
+            <p class="card-text">
+              Check out our new "For Sale" page for current in stock timber slabs & wood on sale now!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
